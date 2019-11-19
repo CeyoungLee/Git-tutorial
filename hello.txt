@@ -1,4 +1,4 @@
-git 하는 법
+﻿git 하는 법
 cmd 에 git 쳐서 설치 확인
 git config --global user.email "어쩌고"
 git config --global user.name "어쩌고"
@@ -21,3 +21,8 @@ git reset
 다시애드
 
 git commit -m "Add my_module [Add]" (커밋에 메시지남기기
+
+만약 내가 로컬에서 작업하는데 온라인이 바뀌었다>푸시안됨
+git pull url
+
+하면 내 파일은 그대로 나랑 다른 애만 업데이트 됨.
