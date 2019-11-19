@@ -1,1 +1,11 @@
-dga
+git 하는 법
+cmd 에 git 쳐서 설치 확인
+git config --global user.email "어쩌고"
+git config --global user.name "어쩌고"
+cd 원하는 위치로 이동
+git clone https://어쩌고
+끝나면 동기화 완료. 
+만약 로컬에서 http로 파일을 추가한다면 
+git add hello.txt
+git commit -m "Add Text file [hello.txt]"
+git push 로 완료.
